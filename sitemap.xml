@@ -1,25 +1,25 @@
 <?xml version="1.0"?>
 <urlset>
     <url>
-        <loc></loc>
+        <loc>https://milanstojkovic12223.github.io/GoTravel/</loc>
         <lastmod>2023-11-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc></loc>
+        <loc>https://milanstojkovic12223.github.io/GoTravel/Galerija.html</loc>
         <lastmod>2023-11-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.70</priority>
     </url>
     <url>
-        <loc></loc>
+        <loc>https://milanstojkovic12223.github.io/GoTravel/Prijava.html</loc>
         <lastmod>2023-11-30</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.50</priority>
     </url>
     <url>
-        <loc></loc>
+        <loc>https://milanstojkovic12223.github.io/GoTravel/Autor.html</loc>
         <lastmod>2023-11-30</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.50</priority>
