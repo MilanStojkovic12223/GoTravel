@@ -1,0 +1,500 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Lora', serif;
+}
+
+.cleaner{
+    clear: both;
+}
+
+#header{
+    top:0%;
+    width: 100%;
+    height: 80px;
+    z-index: 2;
+    position: fixed;
+    background-color: white;
+    border-bottom: 1px solid #3e69ad;
+    
+    
+}
+
+#logoImg{
+    margin-top: 18px;
+    margin-left: 30px;
+    width: 40px;
+}
+#logoName{
+    color: #3e69ad;
+    margin-left: 90px;
+    position: absolute;
+    top: 20px;
+    font-size: 42px;
+    font-weight: 100;
+}
+#now{
+    
+    color: #3333ff;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    float: right;
+    position: relative;
+    margin-right: 70px;
+}
+
+nav a{
+    color: #3e69ad;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top: -15px;
+}
+nav li a:hover{
+    color: #3c78d6;
+}
+
+nav li a:after{
+    content:"";
+    position:absolute;
+    background-color: #3c78d6;
+    height:3px;
+    width: 0;
+    left:0;
+    bottom:-10px;
+    transition:0.3s;
+}
+
+nav li a:hover:after{
+    width: 100%;
+}
+
+#background{
+    width: 100%;
+    background-color: black;
+    position: fixed;
+
+  }
+
+#travel{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#main{
+    width: 100%;
+    height: 188.6vh;
+    top:1000px;
+    background-color: #Ecf4fe;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 1;
+    user-select: none;
+}
+
+#main h2{
+    color: #3c78d6;
+    text-align: center;
+    font-weight: 100px;
+    top: 70px;
+    font-size: 35px;
+    position: relative;
+}
+
+#background .Index_naslov {
+    position: absolute;
+    top: 370px;
+    left: 70px;
+    color: white;
+    z-index: 2;
+    font-size: 100px;
+}
+#background .Index_naslov p{
+    font-size: 45px;
+}
+
+#best_offers{
+    width:100%;
+    text-align: center;
+}
+
+.best_offer1{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 3%;
+    width: 500px;
+    height: 625px;
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    box-shadow: 4px 4px 4px 4px gray;
+}
+.best_offer1 img{
+    width:100%;
+    -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+    position: relative;
+}
+.best_offer1:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+
+#offers{
+    width:100%;
+    text-align: center;
+}
+.offer1{
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    background-color: #f0f0ed;
+    box-shadow: 4px 4px 4px 4px gray;
+    border-radius: 3%;
+    width: 500px;
+    height: 625px;
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+}
+
+.offer1 img{
+    width:100%;
+    -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+    position: relative;
+
+}
+
+.offer1:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+/*ponude tekst*/
+.text_ponuda{
+    position: relative;
+    bottom: 80px;
+    color: white;
+}
+.text_ponuda a h3{
+    position: relative;
+    bottom: 30px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.text_ponuda a{
+    text-decoration: none;
+}
+
+/*footer*/
+#footer{
+    width: 100%;
+    height: 105px;
+    background-color: black;
+    z-index: 2;
+    position: relative;
+    text-align: center;
+}
+
+#footer p{
+    color: rgb(194, 201, 201);
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.icons{
+    margin-bottom: 20px;
+
+}
+.icons .a{
+    
+    position: relative;
+    margin-left: 40px;
+}
+.icons i{
+    font-size: 25px;
+    color: rgb(194, 201, 201);
+    overflow: hidden;
+}
+.icons a{
+    position: relative;
+    margin-left: 40px;
+    text-align: center;
+}
+
+/* AUTOR */
+#divAutor{
+    width: 100%;
+    height: 56.5vh;
+    background-color: #Ecf4fe;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 1;
+    user-select: none;
+    padding-top: 300px;
+    text-align: center;
+
+}
+
+#AutorSveDiv{
+    text-align: center;
+    width: 530px;
+    display: inline-block;
+    background-color:white ;
+}
+
+#naslov_strane h1{
+    position: relative;
+    color: #3c78d6;
+    top: 10%;
+    font-size: 50px;
+    text-align: center;
+}
+
+#texstAutor{
+    color: #3e69ad;
+    display: inline-block;
+    width: 300px;   
+}
+
+#texstAutor h2{
+    font-size: 22px;
+    margin-top: 10px;
+}
+#texstAutor p{
+    text-align: left;
+    padding-bottom: 50px;
+    margin-top: 13px;
+}
+
+#imgAutor{
+    padding:10px;    
+    width: 200px;
+    float: left;
+
+}
+
+#imgAutor img{
+    width: 100%;
+}
+
+/*GALERIJA*/
+#main_galerija{
+    width: 100%;
+    height: 95vh;
+    top:1000px;
+    background-color: #Ecf4fe;
+    margin-top: 0px;
+    margin-bottom: 900px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    user-select: none;
+}
+
+#pozicija_galerije{
+    width: 100%;
+    height: 700px;
+    margin-bottom: 0px;
+    top: 70px;
+    position: relative;
+}
+
+#main_galerija #pozicija_galerije h2{
+    color: #3c78d6;
+    text-align: center;
+    font-weight: 100px;
+    top: 5px;
+    font-size: 35px;
+    position: relative;
+}
+
+#background_galerija .Galerija_naslov h1{
+    position: absolute;
+    top: 400px;
+    right: 590px;
+    color: #3c78d6;
+    z-index: 2;
+    font-size: 100px;
+}
+
+#background_galerija{
+    width: 100%;
+    background-color: black;
+    position: fixed; 
+  }
+
+
+#background_galerija img{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    opacity: 90%;
+}
+#slajder{
+    text-align: center;
+
+}
+
+#slajder img{
+    width: 900px;
+    position: absolute;
+    top: 7%;
+    right: 27%;  
+    box-shadow: 2px 2px 2px 2px black;   
+}
+
+
+@keyframes slajder 
+{
+  0%{opacity: 1;}
+ 15% {opacity: 1;}
+ 30%{opacity: 0;}
+ 90% {opacity:0;}
+ 100% {opacity:1;}
+}
+
+#slajder img:nth-child(1) {
+   animation: slajder 18s 0s infinite;
+   z-index:6;
+}
+
+#slajder img:nth-child(2) {
+   animation: slajder 18s 3s infinite;
+   z-index:5;
+}
+
+#slajder img:nth-child(3) {
+   animation: slajder 18s 6s infinite;
+   z-index:4;
+}
+
+#slajder img:nth-child(4) {
+   animation: slajder 18s 9s infinite;
+   z-index:3;
+}
+
+#slajder img:nth-child(5) {
+    animation: slajder 18s 12s infinite;
+    z-index:2;
+ }
+
+ #slajder img:nth-child(6) {
+    animation: slajder 18s 15s infinite;
+    z-index:2;
+ }
+ /*FORMA*/
+#main_forma{
+    width: 100%;
+    height: 88.7vh;
+    background-color: #Ecf4fe;
+    margin-top: 0px;
+
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    user-select: none; 
+}
+
+ #forma_pozicija{
+    position: relative;
+    top:12%;
+    width: 100%;
+    text-align: center;
+ }
+
+ #prijava{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    bottom: 140px;
+}
+
+#mapa{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+#mapa iframe{
+    width: 600px;
+    height: 600px;
+    margin-top: 20px;
+    margin-right: 40px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+form .textInput{
+    width: 600px;
+    height: 30px;
+    box-shadow: 0.25px 0.25px 0.25px 0.25px gray;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 600px;
+    height: 80px;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 5px;
+}
+.radioBtn{
+    width: 70px;
+    height:40PX;
+    margin-right: 45px;
+}
+#prijava h1,h2{
+    font-size: 30px;
+    color: #3e69ad;
+}
+#prijava h1{
+    margin-bottom: 20px;
+}
+
+form label{
+    color: #3e69ad;
+    font-size: 25px;
+}
+#strelica{
+    position: relative;
+    top:10%;
+    width: 100%;
+}
+#strelica a i{
+    font-size: 25px;
+    float: left;
+    margin-left: 2%;
+    color: #3e69ad;
+}
+.button{
+    margin-right: 7%;
+    width: 80px;
+    height:40PX;
+    background-color: #3c78d6;
+    color:white;
+    border-radius: 5px;
+}

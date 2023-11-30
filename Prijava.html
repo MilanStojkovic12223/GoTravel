@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<htm>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="putovanje, kamioni">
+        <meta name="author" content="Milan Stojković">
+        <meta name="language" content="Serbian">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/9343e2a586.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet"> 
+        <title>Prijava</title>
+    </head>
+    
+    <body>
+        <div class="wrap">
+            <header id="header">
+                <div id="logo">
+                    <a href="index.html"><img src="img/logo.png" alt="logo" id="logoImg"/></a>
+                    <h1 id="logoName">Go Travel</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="Autor.html">Autor</a></li> 
+                        <li><a href="Galerija.html">Galerija</a></li> 
+                        <li><a href="index.html">Početna</a></li>
+                    </ul>
+                </nav>
+                <div class="cleaner"></div>
+            </header>
+
+            <div id="main_forma">
+                <div id="strelica"><a href="index.html"><i class="fa-solid fa-arrow-left"></i></a></div>
+                <div id="forma_pozicija">
+                    <div id="mapa">
+                        <h2>Prijavi se već danas</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11321.435429847032!2d20.4844148!3d44.8142534!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a9609031735%3A0xc17ed71f59ac4725!2sICT%20College!5e0!3m2!1sen!2srs!4v1700570699381!5m2!1sen!2srs">
+                        </iframe>
+                    </div>
+                    <div id="prijava">
+                        <h1>Popuni prijavu</h1>
+                        <form target="_blank" action="index.php" method="post">
+                            <input type="text" class="textInput" id="name" name="name" placeholder="Ime" required><br><br>
+                            <input type="text" class="textInput" id="surname" name="surname" placeholder="Prezime" required><br><br>
+                            <input type="email" class="textInput" id="mail" name="mail" placeholder="Email" required><br><br>
+                            <input type="text" class="textInput" id="number" name="number" placeholder="Broj Telefona." required><br>
+                            <div class="radioBtnList">
+                                <br>
+                                <label class="textInput3"><b>Način plaćanja:</b></label><br>
+                                <input id="M" type="radio" name="radioButton" value="G">
+                                <label class="radioBtn" for="G">Gotovina</label><br>
+                                <input id="F" type="radio" name="radioButton" value="K">
+                                <label class="radioBtn" for="K">Kartica</label>
+                            </div>
+                            <br>
+                            <textarea class="textInput2" name="Message" placeholder="Unesite dodatna pitanja."></textarea>
+                            <br><br>
+                            <button class="button" type="submit">Pošalji</button>
+                            <button class="button" type="reset">Resetuj</button>
+                        </form>
+                    </div>
+                    <div class="cleaner"></div>
+                </div>
+            </div>
+
+            <div id="footer">
+                <p>Socijalne mreže</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="sitemap.xml" target="_blank"><i class="fa-solid fa-sitemap"></i></a>
+                <a href="rss.xml" target="_blank"><i class="fa-solid fa-rss"></i></a>
+                <div class="cleaner"></div>
+            </div>
+            <p>&copy; 2023 Milan Stojković</p>
+        </div>
+
+        </div>
+    </body>
+
+</htm>
