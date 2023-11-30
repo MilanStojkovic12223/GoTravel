@@ -2,11 +2,11 @@
 <rss version="2.0">
     <channel>
         <title>Nove Ponude</title>
-        <link></link>
+        <link>https://milanstojkovic12223.github.io/GoTravel/index.html#offers</link>
         <description>Nove ponude samo na Go Travel!</description>
         <item>
             <title>Najbolje Ponude</title>
-            <link></link>
+            <link>https://milanstojkovic12223.github.io/GoTravel/index.html#best_offers</link>
             <description>Rezervisite najbolje ponude već sada!</description>
         </item>
     </channel>
